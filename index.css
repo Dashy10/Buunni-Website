@@ -3,15 +3,22 @@
 /*Brown=#9E4A08*/
 /*Black*/
 /*White*/
-body{
+body {
 	margin: 0 auto;
 }
-#header{
+#header {
 	color: white;
 	background-color: #9E4A08;
-	width:100%;
+	width: 100%;
+	height: 25%;
 }
-#header>ul>li{
+#header>ul{
+	font-size: 10pt;
+	word-spacing: 5px;
+	position: relative;
+	left: 970px;
+}
+#header>ul>li {
 	list-style: none;
 	display: inline;
 }
