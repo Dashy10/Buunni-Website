@@ -1,24 +1,18 @@
 /*Color Scheme*/
 /*Green=#BBC52F*/
 /*Brown=#9E4A08*/
-/*Black*/
-/*White*/
+/*White and Black*/
+
+
+/*Responsive typography*/
+html { font-size:100%; } 
+@media (min-width: 640px) { body {font-size:1rem;} } 
+@media (min-width:960px) { body {font-size:1.2rem;} } 
+@media (min-width:1100px) { body {font-size:1.5rem;} }
+
+/*Responsive Images*/
+/*IE support restrict max image size to parent container*/
+img { max-width: 100%; }
+
 body {
 	margin: 0 auto;
-}
-#header {
-	color: white;
-	background-color: #9E4A08;
-	width: 100%;
-	height: 25%;
-}
-#header>ul{
-	font-size: 10pt;
-	word-spacing: 5px;
-	position: relative;
-	left: 970px;
-}
-#header>ul>li {
-	list-style: none;
-	display: inline;
-}
