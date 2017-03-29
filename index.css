@@ -3,45 +3,15 @@
 /*Brown=#9E4A08*/
 /*Black*/
 /*White*/
-@font-face{
-	font-family: "Meatloaf";
-	src: url("Meatloaf.ttf");
-	
-}
-@font-face{
-	font-family: "jack";
-	src: url("jack.ttf");
-}
 body{
 	margin: 0 auto;
 }
-#coffee{
-	z-index: -1;
-}
-#title{
-	display: none;
-	z-index:1;
-	position: relative;
-	top: 350px;
-	left: 450px;
+#header{
 	color: white;
-	margin-top: -10%;
-	margin-left: -2%;
-	margin-right: -2%;
-	font-size: 55pt;
-	font-family: "Meatloaf";
-	letter-spacing: 5px;
+	background-color: #9E4A08;
+	width:100%;
 }
-#navbar{
-	display: none;
-	position: absolute;
-	top: 5%;
-	right: 0;
-	color: white;
-	font-size: 15pt;
-	font-family: 'Lobster Two', cursive;
-
-}
-#wrappervideo{
-	overflow: hidden;
+#header>ul>li{
+	list-style: none;
+	display: inline;
 }
