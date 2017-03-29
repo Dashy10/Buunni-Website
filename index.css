@@ -1,8 +1,10 @@
 /*Color Scheme*/
 /*Green=#BBC52F*/
 /*Brown=#9E4A08*/
+
 /*Black*/
 /*White*/
+=======
 /*White and Black*/
 
 
@@ -15,6 +17,7 @@ html { font-size:100%; }
 /*Responsive Images*/
 /*IE support restrict max image size to parent container*/
 img { max-width: 100%; }
+
 body {
 	margin: 0 auto;
 }
@@ -77,3 +80,8 @@ h1 span {
 .char10 {
   transform: rotate(100deg);
 }
+=======
+
+body {
+	margin: 0 auto;
+
