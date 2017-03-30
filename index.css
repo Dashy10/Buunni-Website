@@ -26,13 +26,14 @@ body {
 
 h1 span {
   font: 66px Meaty;
-  height: 400px;
+  height: 420px;
   position: absolute;
-  width: 30px;
+  width: 78px;
   left: 24%;
   top: 640%;
   transform-origin: bottom center;
   color: #BBC52F;
+  font-size: 144px;
 }
 
 .badge {
@@ -45,40 +46,151 @@ h1 span {
 
 .char1 {
   transform: rotate(0deg);
+  animation-name: erect;
+    animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char2 {
   transform: rotate(10deg);
+  animation-name: erect;
+  animation-delay: 1s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char3 {
   transform: rotate(20deg);
+  animation-name: erect;
+  animation-delay: 2s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char4 {
   transform: rotate(30deg);
+  animation-name: erect;
+  animation-delay: 3s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char5 {
   transform: rotate(50deg);
+  animation-name: erect;
+  animation-delay: 4s;
+    animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char6 {
   transform: rotate(60deg);
+  animation-name: erect;
+  animation-delay: 5s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char7 {
   transform: rotate(70deg);
+  animation-name: erect;
+  animation-delay: 6s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char8 {
   transform: rotate(80deg);
+  animation-name: erect;
+  animation-delay: 7s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char9 {
   transform: rotate(90deg);
+  animation-name: erect;
+  animation-delay: 8s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
 
 .char10 {
   transform: rotate(100deg);
+  animation-name: erect;
+  animation-delay: 9s;
+     animation-duration: 1s;
+     -webkit-animation-duration: 1s;
+      -moz-animation-duration: 1s;
+       -o-animation-duration: 1s;
+    animation-timing-function: ease;
 }
+
+#lines{
+	display: inline;
+	z-index: 4;
+	color: #198A0E;
+}
+
+#one{
+	position: relative;
+	left: -0.4%;
+}
+
+#star{
+	position: absolute;
+	top: 39.6%;
+	left: 11%;
+	z-index: 14;
+	transform: scale(1.3);
+}
+
+#established{
+	font-family: 'Lobster Two', cursive;
+	position: absolute;
+	left: 41.8%;
+	top: 34%;
+	font-weight: bolder;
+	font-size: 24px;
+}
+
+@keyframes erect {
+    0% {
+        font-size: 144px;
+        animation-timing-function: ease-in;
+    }
+    50% {
+        font-size: 224px;
+        animation-timing-function: ease-out;
+    }
+    100% {
+        font-size: 144px;
+        animation-timing-function: ease-in-out;
+    }
