@@ -1,10 +1,8 @@
 /*Color Scheme*/
 /*Green=#BBC52F*/
 /*Brown=#9E4A08*/
-
 /*Black*/
 /*White*/
-=======
 /*White and Black*/
 
 
@@ -17,20 +15,24 @@ html { font-size:100%; }
 /*Responsive Images*/
 /*IE support restrict max image size to parent container*/
 img { max-width: 100%; }
-
 body {
 	margin: 0 auto;
 }
 
+@font-face {
+  font-family: 'Meaty';
+  src:  url('Meatloaf.ttf')
+}
+
 h1 span {
-  font: 26px Monaco, MonoSpace;
-  height: 200px;
+  font: 66px Meaty;
+  height: 400px;
   position: absolute;
-  width: 20px;
-  left: 0;
-  top: 0;
+  width: 30px;
+  left: 24%;
+  top: 640%;
   transform-origin: bottom center;
-  color: black;
+  color: #BBC52F;
 }
 
 .badge {
@@ -80,8 +82,3 @@ h1 span {
 .char10 {
   transform: rotate(100deg);
 }
-=======
-
-body {
-	margin: 0 auto;
-
