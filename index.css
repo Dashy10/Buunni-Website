@@ -52,6 +52,7 @@ h1 span {
       -moz-animation-duration: 0.8s;
        -o-animation-duration: 0.8s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char2 {
@@ -63,6 +64,7 @@ h1 span {
       -moz-animation-duration: 0.8s;
        -o-animation-duration: 0.8s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px black;
 }
 
 .char3 {
@@ -166,7 +168,7 @@ h1 span {
 
 #star{
 	position: absolute;
-	top: 39.6%;
+	top: 37.6%;
 	left: 10.4%;
 	z-index: 14;
 	transform: scale(1.3);
@@ -176,7 +178,7 @@ h1 span {
 	font-family: 'Lobster Two', cursive;
 	position: absolute;
 	left: 41.8%;
-	top: 34%;
+	top: 33%;
 	font-weight: bolder;
 	font-size: 24px;
 }
