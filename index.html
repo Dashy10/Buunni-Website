@@ -14,38 +14,14 @@
 </head>
 
 <body>
+<header><nav id="navi">
+<ul>
+  <li><a href="#landing">Home</a></li>
+  <li><a href="#aboutme">About</a></li>
+  <li><a href="#toolkit">Résumé</a></li>
+  <li><a href="#contact">Contact</a></li>
+  </ul></nav></header>
 
-		<div id="page-wrap">
-
-			<div class="badge">
-				<h1>
-				  <span class="char1">C</span>
-				  <span class="char2">A</span>
-				  <span class="char3">F</span>
-				  <span class="char4">E</span>
-				  <span class="char5">B</span>
-				  <span class="char6">U</span>
-				  <span class="char7">U</span>
-				  <span class="char8">N</span>
-				  <span class="char9">N</span>
-				  <span class="char10">I</span>
-				</h1>
-				</div>
-		  <div class='wrapper'>
-	      	<canvas id="cnv"></canvas>
-
-	      	<h2>Discover Coffee’s Birthplace</h2>
-
-	      	<div id='about'>
-	      		<h2>The Roastery</h2>
-	      		<p>
-					All of our coffees are roasted on site, right in the back of our Pioneer Square café. Amid jute bags of green coffee from the best small-lot farms in the world, you'll find us roasting, cupping and bagging our favorites of the season.
-				</p>
-	      	</div>
-
-
-	      	<h2>Small Roast, Huge Flavor</h2>
-	      	<footer> Footer Under Construction</footer>
 
 <div id="page-wrap">
 
@@ -64,11 +40,9 @@
 </h1>
 </div>
 
-
 </div>
 
 <div id="lines">
-
 <hr id="one" style=" width: 26%; border-top: 3px solid #198A0E; margin-top: 18.2%;">
 <div id="established">ESTABLISHED 2014</div>
 <div id="star" style=" margin-left: 38%;">&#9733;</div>
@@ -78,7 +52,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/threejs/r76/three.min.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js">
 </script>
+<script src="http://code.jquery.com/jquery-latest.js"></script>
 <script type="text/javascript">
+
+/*(function($) {          
+    $(document).ready(function(){                    
+        $(window).scroll(function(){                          
+            if ($(this).scrollTop() > 200) {
+                $('#navi').fadeIn(500);
+            } else {
+                $('#navi').fadeOut(500);
+            }
+        });
+    });
+})(jQuery); */
 
 var text = $('#established').text();
 
@@ -99,12 +86,10 @@ var character = 0;
             clearTimeout(timeOut);
         }
 
-    },540);
+    },240);
 }());
 
-
 </script>
-
 
 
 </body>

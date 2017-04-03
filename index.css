@@ -24,6 +24,47 @@ body {
   src:  url('Meatloaf.ttf')
 }
 
+
+#navi {
+  position:fixed;
+  top:0px;
+  width: 100%;
+  /*z-index:9999;
+  display: none;*/
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #473644;
+}
+
+li {
+    float: left;
+    border-right:2px solid #bbb;
+}
+
+li:last-child {
+    border-right: none;
+    float: right;
+}
+
+
+li a {
+    display: inline-flex;
+    color: #FFF1FD;
+    text-align: center;
+    padding: 24px 26px;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+li a:hover{
+  color: gold;
+}
+
 h1 span {
   font: 66px Meaty;
   height: 420px;
@@ -47,10 +88,10 @@ h1 span {
 .char1 {
   transform: rotate(0deg);
   animation-name: erect;
-    animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+    animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
     text-shadow: 1px 1px #198A0E;
 }
@@ -58,101 +99,109 @@ h1 span {
 .char2 {
   transform: rotate(10deg);
   animation-name: erect;
-  animation-delay: 0.8s;
-     animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 0.4s;
+     animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
-    text-shadow: 1px 1px black;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char3 {
   transform: rotate(20deg);
   animation-name: erect;
-  animation-delay: 1.6s;
-     animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 0.8s;
+     animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char4 {
   transform: rotate(30deg);
   animation-name: erect;
-  animation-delay: 2.4s;
-    animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 1.2s;
+    animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char5 {
   transform: rotate(50deg);
   animation-name: erect;
-  animation-delay: 3.2s;
-    animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 1.6s;
+    animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char6 {
   transform: rotate(60deg);
   animation-name: erect;
-  animation-delay: 4s;
-     animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 2s;
+     animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char7 {
   transform: rotate(70deg);
   animation-name: erect;
-  animation-delay: 4.8s;
-     animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 2.4s;
+     animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char8 {
   transform: rotate(80deg);
   animation-name: erect;
-  animation-delay: 5.6s;
-     animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 2.8s;
+     animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char9 {
   transform: rotate(90deg);
   animation-name: erect;
-  animation-delay: 6.4s;
-     animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 3.2s;
+     animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 .char10 {
   transform: rotate(100deg);
   animation-name: erect;
-  animation-delay: 7.2s;
-     animation-duration: 0.8s;
-     -webkit-animation-duration: 0.8s;
-      -moz-animation-duration: 0.8s;
-       -o-animation-duration: 0.8s;
+  animation-delay: 3.6s;
+     animation-duration: 0.4s;
+     -webkit-animation-duration: 0.4s;
+      -moz-animation-duration: 0.4s;
+       -o-animation-duration: 0.4s;
     animation-timing-function: ease;
+    text-shadow: 1px 1px #198A0E;
 }
 
 #lines{
